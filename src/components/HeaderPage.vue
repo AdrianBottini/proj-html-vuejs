@@ -24,6 +24,12 @@
       </ul>
       <button>FREE QUOTE</button>
     </nav>
+    <div>
+      <button class="grande">
+        <i class="fa-light fa-paper-plane"></i>
+        GET A FREE QUOTE ONLINE NOW!
+      </button>
+    </div>
   </div>
 </template>
 
@@ -56,5 +62,10 @@ export default {
   }
   a {
     text-decoration: none;
+  }
+  .grande {
+    background-color: #1975c0;
+    color: white;
+    width: 100%;
   }
 </style>
