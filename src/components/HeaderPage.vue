@@ -3,21 +3,24 @@
     <div class="HeaderPage">
       <div class="green">
         <div class="icone">
-          <i class="fa-solid fa-phone"></i>
+          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
           <span>Call us for a Free Quote: 1.800.555.6789</span>
         </div>
         <div>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
+          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
+          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
+          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
         </div>
       </div>
     </div>
     <nav class="barra-navigazione">
       <div class="contenitore">
-        <!-- <img alt="Avada movers" src="../assets/img/avada-movers-logo.png"></img> -->
-        <ul>
+        <div>
+          <img alt="Avada movers" class="logo" src="../assets/img/avada-movers-logo.png">
+        </div>
+        <div class="lista">
+          <ul>
           <li><a href="" class="black">Home</a></li>
           <li><a href="" class="black">Rates</a></li>
           <li><a href="" class="black">Testimonials</a></li>
@@ -28,6 +31,7 @@
         <button class="btn-primary piccolo">
           <a href="" class="nav">FREE QUOTE</a>
         </button>
+      </div>
       </div>
     </nav>
     <div class="simple">
@@ -70,10 +74,18 @@ export default {
 .simple {
   background-image: url(../assets/img/avada-movers-homeherobackground-final.jpg);
   position: relative;
+  background-size: cover;
+  height: 500px;
+}
+
+.lista {
+  display: flex;
+  align-items: center;
 }
 
 .testo {
   text-align: center;
+  padding-top: 150px;
 }
 
 .testo-grigio {
@@ -107,6 +119,7 @@ export default {
 .barra-navigazione {
   display: flex;
   justify-content: space-around;
+  padding: 20px;
 }
 
 ul {
@@ -143,7 +156,6 @@ a {
   height: 40px;
   display: flex;
   align-items: center;
-  margin-top: 22px;
   border-radius: 25px;
   border: none;
 }
@@ -156,6 +168,9 @@ a {
 
 .contenitore {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .secondo-p {
@@ -180,5 +195,9 @@ a {
 .centrale {
   color: white;
   margin: auto;
+}
+
+.margine {
+  margin-right: 10px;
 }
 </style>
