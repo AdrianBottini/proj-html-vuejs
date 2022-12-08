@@ -6,7 +6,8 @@
     </div>
     <div class="cards">
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="../assets/img/avada-movers-serviceonephoto-final-400x255.jpg"
+        <img class="card-img-top"
+        src="../assets/img/avada-movers-serviceonephoto-final-400x255.jpg"
           alt="Card image cap">
         <div class="card-body">
           <h3 class="card-title">Two Man Teams</h3>
@@ -14,11 +15,12 @@
             right through to being in your new home with all of your belongings
             securely packed and safely.
           </p>
-          <a href="#" class="btn btn-primary main-btn">Go somewhere</a>
+          <a href="#" class="btn btn-primary main-btn">READ MORE</a>
         </div>
       </div>
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="../assets/img/avada-movers-servicetwophoto-final-400x255.jpg"
+        <img class="card-img-top"
+        src="../assets/img/avada-movers-servicetwophoto-final-400x255.jpg"
           alt="Card image cap">
         <div class="card-body">
           <h3 class="card-title">We Do All The Lifting</h3>
@@ -26,7 +28,7 @@
             right through to being in your new home with all of your belongings
             securely packed and safely.
           </p>
-          <a href="#" class="btn btn-primary main-btn">Go somewhere</a>
+          <a href="#" class="btn btn-primary main-btn">READ MORE</a>
         </div>
       </div>
       <div class="card" style="width: 20rem;">
@@ -39,7 +41,7 @@
             right through to being in your new home with all of your belongings
             securely packed and safely.
           </p>
-          <a href="#" class="btn btn-primary main-btn">Go somewhere</a>
+          <a href="#" class="btn btn-primary main-btn">READ MORE</a>
         </div>
       </div>
     </div>
@@ -52,6 +54,41 @@
           securely packed and safely delivered, even in theerooms of your choice.
         </p>
         <a href="#" class="btn btn-primary main-btn-2">GET A FREE QUOTE NOW</a>
+      </div>
+    </div>
+    <div class="contenitore-card-2">
+      <div class="testo-2">
+        <h4 class="testo-grigio">HAPPY CUSTOMERS</h4>
+        <h1 class="big-2">Testimonials</h1>
+      </div>
+      <div class="card-tonde">
+        <div class="card-2" style="width: 18rem;">
+          <img src="../assets/img/avada-movers-johndoe-final.jpg" class="card-img" alt="...">
+          <div class="card-body-2">
+            <h2 class="card-title-2">John Doe</h2>
+            <p class="card-text">Some quick example text to build on the card title
+              and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card-2" style="width: 18rem;">
+          <img src="../assets/img/avada-movers-janedoe-final.jpg" class="card-img" alt="...">
+          <div class="card-body-2">
+            <h2 class="card-title-2">Jane Doe</h2>
+            <p class="card-text">Some quick example text to build on the card title
+              and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card-2" style="width: 18rem;">
+          <img src="../assets/img/avada-movers-johnsmith-final.jpg" class="card-img" alt="...">
+          <div class="card-body-2">
+            <h2 class="card-title-2">Jhon Smith</h2>
+            <p class="card-text">Some quick example text to build on the card title
+              and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="bottone">
+        <a href="#" class="btn btn-primary secondo">READ MORE TESTIMONIALS</a>
       </div>
     </div>
   </div>
@@ -75,7 +112,8 @@ export default {
   width: 1200px;
   margin: auto;
 
-margin-top: 100px;}
+  margin-top: 100px;
+}
 
 img {
   width: 100%;
@@ -87,11 +125,22 @@ img {
   height: 500px;
 }
 
+.card-2 {
+  padding: 30px;
+  opacity: 0.8;
+}
+
+.card-img {
+  width: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
 .main-btn {
   background-color: #1975c0;
   color: white;
   border-radius: 20px;
-  padding: 5px;
+  padding: 10px;
   width: 150px;
   margin: auto;
 }
@@ -113,7 +162,18 @@ img {
   padding-bottom: 50px;
 }
 
+.card-body-2 {
+  padding: 10px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
 .card-title {
+  text-align: center;
+  color: #1975c0;
+}
+
+.card-title-2 {
   text-align: center;
   color: #1975c0;
 }
@@ -148,5 +208,44 @@ img {
   border-bottom: 1px solid white;
   padding-bottom: 10px;
   font-size: 50px;
+}
+
+.contenitore-card-2 {
+  background-image: url(../assets/img/avada-movers-testimonial-background.jpg);
+  background-size: cover;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.card-tonde {
+  display: flex;
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  height: 500px;
+  padding-top: 200px;
+  position: relative;
+}
+
+.bottone {
+  background-color: #1975c0;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 370px;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+.secondo {
+  text-decoration: none;
+  color: white;
+}
+
+.testo-2 {
+  padding-top: 10px;
+  margin-bottom: -200px;
+  margin-top: 100px;
 }
 </style>

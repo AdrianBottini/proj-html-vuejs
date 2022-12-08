@@ -144,7 +144,7 @@ a {
   background-color: #1975c0;
   color: white;
   width: 100%;
-  height: 50px;
+  height: 100px;
   border: none;
 }
 
@@ -169,7 +169,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 70%;
 }
 
 .secondo-p {
