@@ -145,7 +145,6 @@ a {
   color: white;
   width: 100%;
   height: 50px;
-  margin-top: 22px;
   border: none;
 }
 

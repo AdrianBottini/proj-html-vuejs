@@ -6,34 +6,52 @@
     </div>
     <div class="cards">
       <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="../assets/img/avada-movers-serviceonephoto-final-200x128.jpg"
+        <img class="card-img-top" src="../assets/img/avada-movers-serviceonephoto-final-400x255.jpg"
           alt="Card image cap">
         <div class="card-body">
           <h3 class="card-title">Two Man Teams</h3>
-          <p class="card-text">Some quick example text to build on the card
-            title and make up the bulk of the card's content.</p>
+          <p class="card-text">With our super simple service we can take you from getting a quote,
+            right through to being in your new home with all of your belongings
+            securely packed and safely.
+          </p>
           <a href="#" class="btn btn-primary main-btn">Go somewhere</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="../assets/img/avada-movers-serviceonephoto-final-200x128.jpg"
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="../assets/img/avada-movers-servicetwophoto-final-400x255.jpg"
           alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card
-            title and make up the bulk of the card's content.</p>
+          <h3 class="card-title">We Do All The Lifting</h3>
+          <p class="card-text">With our super simple service we can take you from getting a quote,
+            right through to being in your new home with all of your belongings
+            securely packed and safely.
+          </p>
           <a href="#" class="btn btn-primary main-btn">Go somewhere</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="../assets/img/avada-movers-serviceonephoto-final-200x128.jpg"
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top"
+        src="../assets/img/avada-movers-servicethreephoto-final-600x383.jpg"
           alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card
-            title and make up the bulk of the card's content.</p>
+          <h3 class="card-title">Coast To Coast</h3>
+          <p class="card-text">With our super simple service we can take you from getting a quote,
+            right through to being in your new home with all of your belongings
+            securely packed and safely.
+          </p>
           <a href="#" class="btn btn-primary main-btn">Go somewhere</a>
         </div>
+      </div>
+    </div>
+    <div class="contenitore-immagine">
+      <div class="contenitore-verde">
+        <h4>WE RREMOVE THE HEADACHE FROM MOVING</h4>
+        <h1 class="bordo">Move WIth Ease</h1>
+        <p>With our super simple service we can take you from getting a quote,
+          right through to being in your new home with all of your belongings
+          securely packed and safely delivered, even in theerooms of your choice.
+        </p>
+        <a href="#" class="btn btn-primary main-btn-2">GET A FREE QUOTE NOW</a>
       </div>
     </div>
   </div>
@@ -54,7 +72,10 @@ export default {
 .cards {
   display: flex;
   justify-content: space-around;
-}
+  width: 1200px;
+  margin: auto;
+
+margin-top: 100px;}
 
 img {
   width: 100%;
@@ -63,6 +84,7 @@ img {
 .card {
   background-color: #e9e9e9;
   padding: 20px;
+  height: 500px;
 }
 
 .main-btn {
@@ -72,5 +94,59 @@ img {
   padding: 5px;
   width: 150px;
   margin: auto;
+}
+
+.main-btn-2 {
+  background-color: #1975c0;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card-body {
+  background-color: #fefefe;
+  padding: 10px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.card-title {
+  text-align: center;
+  color: #1975c0;
+}
+
+.card-text {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.contenitore-immagine {
+  background-image: url(../assets/img/avada-movers-movewithease-background-new.jpg);
+  position: relative;
+  background-size: cover;
+  height: 800px;
+  margin-top: 150px;
+}
+
+.contenitore-verde {
+  width: 500px;
+  margin-right: 120px;
+  background-color: #69bf14;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  right: 130px;
+  padding: 40px;
+  border: 20px solid #4c8d53;
+  color: white;
+}
+
+.bordo {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  font-size: 50px;
 }
 </style>
