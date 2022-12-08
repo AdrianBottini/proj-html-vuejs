@@ -142,6 +142,10 @@ a {
   font-weight: bold;
 }
 
+a:hover {
+  color: #6bbb14;
+}
+
 .grande {
   background-color: #1975c0;
   color: white;
