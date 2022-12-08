@@ -20,14 +20,14 @@
           <img alt="Avada movers" class="logo" src="../assets/img/avada-movers-logo.png">
         </div>
         <div class="lista">
-          <ul>
-          <li><a href="" class="black">Home</a></li>
-          <li><a href="" class="black">Rates</a></li>
-          <li><a href="" class="black">Testimonials</a></li>
-          <li><a href="" class="black">FAQ</a></li>
-          <li><a href="" class="black">Blog</a></li>
-          <li><a href="" class="black">Contact</a></li>
-        </ul>
+          <ul style="display:flex">
+            <li><a href="" class="black">Home</a></li>
+            <li><a href="" class="black">Rates</a></li>
+            <li><a href="" class="black">Testimonials</a></li>
+            <li><a href="" class="black">FAQ</a></li>
+            <li><a href="" class="black">Blog</a></li>
+            <li><a href="" class="black">Contact</a></li>
+          </ul>
         <button class="btn-primary piccolo">
           <a href="" class="nav">FREE QUOTE</a>
         </button>
@@ -121,15 +121,10 @@ export default {
   padding: 20px;
 }
 
-ul {
-  display: flex;
-  justify-content: space-around;
-}
-
 li {
   list-style: none;
   display: flex;
-  padding: 20px;
+  padding: 15px;
 }
 
 a {
