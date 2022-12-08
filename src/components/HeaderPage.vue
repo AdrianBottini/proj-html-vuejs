@@ -3,14 +3,14 @@
     <div class="HeaderPage">
       <div class="green">
         <div class="icone">
-          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
-          <span>Call us for a Free Quote: 1.800.555.6789</span>
+          <font-awesome-icon icon="fa-solid fa-phone-flip" class="icone"/>
+          <h5>Call us for a Free Quote: 1.800.555.6789</h5>
         </div>
-        <div style="margin-top:17px">
-          <font-awesome-icon icon="fa-brands fa-facebook" />
-          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
-          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
-          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
+        <div>
+          <font-awesome-icon icon="fa-brands fa-facebook-f" class="icone-2"/>
+          <font-awesome-icon icon="fa-brands fa-twitter" class="icone-2"/>
+          <font-awesome-icon icon="fa-brands fa-instagram" class="icone-2"/>
+          <font-awesome-icon icon="fa-brands fa-youtube" class="icone-2"/>
         </div>
       </div>
     </div>
@@ -41,9 +41,9 @@
         <h4 class="testo-grigio">PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</h4>
       </div>
     </div>
-    <div>
+    <div class="bottonegrande">
       <button class="grande">
-        <font-awesome-icon icon="fa-thin fa-paper-plane" />
+        <font-awesome-icon icon="fa-solid fa-paper-plane" />
         <a href="" class="nav">GET A FREE QUOTE ONLINE NOW!</a>
       </button>
     </div>
@@ -75,6 +75,17 @@ export default {
   position: relative;
   background-size: cover;
   height: 700px;
+}
+
+.icone {
+  padding: 6px;
+  align-items: center;
+  display: flex;
+}
+
+.icone-2 {
+  padding: 6px;
+  align-items: center;
 }
 
 .lista {
@@ -109,10 +120,7 @@ export default {
   justify-content: space-around;
   width: 100%;
   height: 50px;
-}
-
-.icone {
-  margin-top: 17px;
+  align-items: center;
 }
 
 .barra-navigazione {
@@ -140,6 +148,9 @@ a {
   width: 100%;
   height: 100px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .piccolo {
