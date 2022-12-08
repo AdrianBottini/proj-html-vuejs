@@ -91,6 +91,15 @@
         <a href="#" class="btn btn-primary secondo">READ MORE TESTIMONIALS</a>
       </div>
     </div>
+    <div class="finale">
+      <div class="contenitore-finale">
+        <h1 class="big-2">Request A Free Quote</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+          doloremque odio, vitae molestiae ut cum quas ullam pariatur consequuntur
+          voluptates eaque? Voluptas ducimus ipsa..</p>
+          <a href="#" class="btn btn-primary main-btn-3">CLICK HERE</a>
+        </div>
+      </div>
   </div>
 </template>
 
@@ -122,7 +131,7 @@ img {
 .card {
   background-color: #e9e9e9;
   padding: 20px;
-  height: 500px;
+  height: 570px;
 }
 
 .card-2 {
@@ -143,6 +152,7 @@ img {
   padding: 10px;
   width: 150px;
   margin: auto;
+  margin-top: 20px;
 }
 
 .main-btn-2 {
@@ -153,6 +163,16 @@ img {
   width: 250px;
   margin: auto;
   margin-top: 20px;
+}
+
+.main-btn-3 {
+  background-color: #1975c0;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .card-body {
@@ -192,14 +212,14 @@ img {
 }
 
 .contenitore-verde {
-  width: 500px;
+  width: 530px;
   margin-right: 120px;
   background-color: #69bf14;
   text-align: center;
   position: absolute;
   top: 200px;
   right: 130px;
-  padding: 40px;
+  padding: 15px;
   border: 20px solid #4c8d53;
   color: white;
 }
@@ -219,7 +239,7 @@ img {
 
 .card-tonde {
   display: flex;
-  width: 900px;
+  width: 1000px;
   margin: auto;
   margin-top: 50px;
   text-align: center;
@@ -233,7 +253,7 @@ img {
   color: white;
   border-radius: 20px;
   padding: 10px;
-  width: 370px;
+  width: 280px;
   margin: auto;
   margin-bottom: 90px;
 }
@@ -248,4 +268,22 @@ img {
   margin-bottom: -200px;
   margin-top: 100px;
 }
+
+.finale {
+  height: 600px;
+  background-image: url(../assets/img/avada-movers-request-quote-background.jpg);
+  border-bottom: 20px solid #69bf14;
+}
+
+.contenitore-finale {
+  width: 800px;
+  margin: auto;
+  padding-top: 180px;
+  text-align: center;
+}
+
+p {
+  line-height: 200%;
+}
+
 </style>

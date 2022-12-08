@@ -53,8 +53,7 @@
         <h1 class="big-2">Award Winning Moving Company</h1>
         <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           Cumque eos placeat delectus mollitia accusamus maxime dignissimos
-          magni pariatur tempora laudantium ducimus et odio, tenetur sequi
-          similique provident at sint corrupti?</p>
+          magni pariatur tempora laudantium ducimus et odio.</p>
         <button class="btn-primary piccolo centrale">
           <a href="" class="nav">READ OUR TESTIMONIALS</a>
         </button>
@@ -113,7 +112,7 @@ export default {
 }
 
 .icone {
-  margin-top: 10px;
+  margin-top: 17px;
 }
 
 .barra-navigazione {
@@ -173,9 +172,9 @@ a {
 }
 
 .secondo-p {
-  padding: 50px;
+  padding: 100px;
   margin: 21px auto;
-  width: 400px;
+  width: 490px;
 }
 
 .paragrafo {
