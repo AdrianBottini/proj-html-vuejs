@@ -6,8 +6,8 @@
           <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
           <span>Call us for a Free Quote: 1.800.555.6789</span>
         </div>
-        <div>
-          <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
+        <div style="margin-top:17px">
+          <font-awesome-icon icon="fa-brands fa-facebook" />
           <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
           <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
           <font-awesome-icon icon="fa-solid fa-phone" class="margine" />
@@ -21,12 +21,12 @@
         </div>
         <div class="lista">
           <ul style="display:flex">
-            <li><a href="" class="black">Home</a></li>
-            <li><a href="" class="black">Rates</a></li>
-            <li><a href="" class="black">Testimonials</a></li>
-            <li><a href="" class="black">FAQ</a></li>
-            <li><a href="" class="black">Blog</a></li>
-            <li><a href="" class="black">Contact</a></li>
+            <li class="li"><a href="" class="black">Home</a></li>
+            <li class="li"><a href="" class="black">Rates</a></li>
+            <li class="li"><a href="" class="black">Testimonials</a></li>
+            <li class="li"><a href="" class="black">FAQ</a></li>
+            <li class="li"><a href="" class="black">Blog</a></li>
+            <li class="li"><a href="" class="black">Contact</a></li>
           </ul>
         <button class="btn-primary piccolo">
           <a href="" class="nav">FREE QUOTE</a>
@@ -43,7 +43,7 @@
     </div>
     <div>
       <button class="grande">
-        <i class="fa-light fa-paper-plane"></i>
+        <font-awesome-icon icon="fa-thin fa-paper-plane" />
         <a href="" class="nav">GET A FREE QUOTE ONLINE NOW!</a>
       </button>
     </div>
@@ -74,7 +74,7 @@ export default {
   background-image: url(../assets/img/avada-movers-homeherobackground-final.jpg);
   position: relative;
   background-size: cover;
-  height: 500px;
+  height: 700px;
 }
 
 .lista {
@@ -84,7 +84,7 @@ export default {
 
 .testo {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .testo-grigio {
@@ -121,10 +121,10 @@ export default {
   padding: 20px;
 }
 
-li {
+.li {
   list-style: none;
   display: flex;
-  padding: 15px;
+  padding: 25px;
 }
 
 a {
@@ -151,6 +151,7 @@ a {
   align-items: center;
   border-radius: 25px;
   border: none;
+  margin-left: 5px;
 }
 
 .grigio {

@@ -12,21 +12,21 @@
     <div class="secondo-2">
       <h4 class="h4-finale-1"><a href="" class="black">AVADA MOVERS</a></h4>
       <ul>
-        <li><a href="" class="black">&#8250; Home</a></li>
-        <li><a href="" class="black">&#8250; Rates</a></li>
-        <li><a href="" class="black">&#8250; Testimonials</a></li>
-        <li><a href="" class="black">&#8250; Blog</a></li>
-        <li><a href="" class="black">&#8250; Free Quote</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Home</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Rates</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Testimonials</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Blog</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Free Quote</a></li>
       </ul>
     </div>
     <div class="terzo">
       <h4 class="h4-finale"><a href="" class="black">RECENT POSTS</a></h4>
       <ul>
-        <li><a href="" class="black">&#8250; Heading Out To College?</a></li>
-        <li><a href="" class="black">&#8250; Moving Your Business?</a></li>
-        <li><a href="" class="black">&#8250; Outstanding Quality</a></li>
-        <li><a href="" class="black">&#8250; Cost of Moving</a></li>
-        <li><a href="" class="black">&#8250; Best Moving Tips</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Heading Out To College?</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Moving Your Business?</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Outstanding Quality</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Cost of Moving</a></li>
+        <li class="li-2"><a href="" class="black">&#8250; Best Moving Tips</a></li>
       </ul>
     </div>
   </div>
@@ -71,5 +71,11 @@ export default {
 
 .h4-finale-1 {
   margin-left: -20px;
+}
+
+.li-2 {
+  list-style: none;
+  display: flex;
+  padding: 15px;
 }
 </style>
